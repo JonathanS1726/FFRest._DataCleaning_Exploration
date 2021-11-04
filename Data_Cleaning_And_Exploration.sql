@@ -1,3 +1,5 @@
+-- DATA CLEANING AND EXPLORATION
+
 Skills used: UPDATE, CASE, VARIABLES, INSERT INTO, CTE's, PARTION BY, VIEWS
 
 ----------------------------------------------------------------------------------------
