@@ -115,8 +115,8 @@ INSERT INTO @NamesToChange (FromName,ToName)
 
 UPDATE ff SET name = ToName
 FROM dbo.Fast_Food_Restaurants ff
- INNER JOIN @NamesToChange t
- ON ff.name = t.FromName;
+INNER JOIN @NamesToChange t
+ON ff.name = t.FromName;
 
 
 SELECT DISTINCT name
